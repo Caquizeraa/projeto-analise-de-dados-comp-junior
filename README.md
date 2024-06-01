@@ -25,36 +25,36 @@ Recebi os [dados](https://drive.google.com/file/d/1uI7qAjt6qJsh_V4IYUQ82y8Yr_OIL
 1: Qual é a receita total gerada por categoria de produto?
 Resposta: 
 
-![image](.Queries SQL/pergunta1/pergunta1output.png)
+![image](Queries SQL/pergunta1/pergunta1output.png)
 
 2: Qual é o tempo médio de entrega dos produtos, por estado?
 Resposta:
 
-![image](.Queries SQL/pergunta2/pergunta2output.png)
+![image](Queries SQL/pergunta2/pergunta2output.png)
 
 3: Quais são os top 10 clientes em termos de valor gasto (aqueles
 que gastaram mais)?
 Resposta:
 
-![image](.Queries SQL/pergunta3/pergunta3output.png)
+![image](Queries SQL/pergunta3/pergunta3output.png)
 
 4: Qual a variação percentual das vendas mensais, comparado ao
 mês anterior, por categoria?
 Resposta:
 
-![image](.Queries SQL/pergunta4/pergunta4output.png)
+![image](Queries SQL/pergunta4/pergunta4output.png)
 
 5: Quais os 5 vendedores que têm o maior número de pedidos
 cancelados? 
 Resposta:
 
-![image](.Queries SQL/pergunta5/pergunta5output.png)
+![image](Queries SQL/pergunta5/pergunta5output.png)
 
 6: Quais os estados que tiveram a maior relação
 “Número de Pedidos”/”Tempo médio de entrega”?
 Resposta:
 
-![image](.Queries SQL/pergunta6/pergunta6output.png)
+![image](Queries SQL/pergunta6/pergunta6output.png)
 
 - Para todas as perguntas foram criadas queries sql com seleções, uniões e agrupamentos básicos, buscando sempre uma tabela que respondêsse as perguntas.
 
