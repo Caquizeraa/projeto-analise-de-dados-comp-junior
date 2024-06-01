@@ -61,7 +61,7 @@ Resposta:
 
 Para todas as perguntas foram criadas queries sql com seleções, uniões e agrupamentos básicos, buscando sempre uma tabela que respondêsse as perguntas.
 
-### 2. Power BI
+### 3. Power BI
 Utilizando os mesmos [dados](https://drive.google.com/file/d/1uI7qAjt6qJsh_V4IYUQ82y8Yr_OILTjQ/edit), foi feito um [dashboard](https://app.powerbi.com/view?r=eyJrIjoiNjljOTcyZDYtNWExYi00NDQ0LWI1NjItNjg0MzYyMGRhYzBjIiwidCI6IjkxZDViYjA2LTY5NzAtNDQ2OC1hZTRjLTZmZjRjYWY5OTQyMyJ9) em Power BI, com as seguintes exigências:
 
 Gráficos
@@ -91,3 +91,68 @@ https://app.powerbi.com/view?r=eyJrIjoiNjljOTcyZDYtNWExYi00NDQ0LWI1NjItNjg0MzYyM
 <img src="./images/pagina1dashboard.png">
 <img src="./images/pagina2dashboard.png">
 <img src="./images/pagina3dashboard.png">
+
+### 4. Python
+Foi enviado o seguinte [Notebook](https://drive.google.com/file/d/1IcJ2pBmdAhkE6a9Lph9lb_ObY6aGhCpN/view), com vários exercícios, baseadas nos dados das seguintes [tabelas](https://drive.google.com/file/d/1IcJ2pBmdAhkE6a9Lph9lb_ObY6aGhCpN/view).
+
+Exercício 1:
+
+    Na sua primeira tarefa como analista de dados na Comp Júnior, você precisa combinar informações de diferentes fontes para uma visão holística.
+    Carregue os datasets de clientes, pedidos e produtos usando o Pandas e crie um único DataFrame unificando esses dados por suas chaves relevantes (customer_id, order_id).
+    Apresente as primeiras cinco linhas do DataFrame resultante para verificação e atribua os seguintes nomes às respectivas tabelas:
+
+    olist_customers_dataset: customer_df
+    olist_orders_dataset: orders_df
+    olist_order_items_dataset: items_df
+    Tabela única: df
+
+Exercício 2:
+
+    Dados precisos são cruciais para uma análise eficaz. Identifique e trate valores ausentes ou duplicados nos datasets de clientes e pedidos.         
+    Explique sua abordagem e justifique as decisões tomadas para o tratamento desses dados.
+
+Exercício 3:
+
+    Como parte do seu relatório mensal, você precisa fornecer um resumo estatístico dos preços dos produtos. 
+    Utilize o método describe() do Pandas para detalhar a distribuição dos preços, destacando possíveis outliers e sua possível influência no cálculo da média.
+
+Exercício 4:
+
+    A eficiência logística é vital para a satisfação do cliente. 
+    Adicione uma coluna ao DataFrame de pedidos que calcule o número de dias entre a data de compra e a data de entrega. Discuta como variações nesse prazo podem impactar a percepção do cliente.
+
+Exercício 5:
+
+    Visualizações claras podem revelar tendências que antes não eram possíveis de serem capturadas. Crie um gráfico de barras vertical que mostre o volume de vendas mensal por estado. 
+    Use essa visualização para identificar quais estados apresentaram maior crescimento no último ano.
+
+Exercício 6:
+
+    Para incentivar uma competição saudável entre os vendedores, você decide analisar o desempenho individual. 
+    Calcule e visualize o total de vendas por vendedor usando um gráfico de barras horizontal no Matplotlib, destacando o vendedor com maior volume de vendas.
+
+Exercício 7:
+
+    Entender a dinâmica de preços é crucial para estratégias de marketing. 
+    Utilize Numpy para calcular a média, mediana e desvio padrão dos preços dos produtos, discutindo como essas métricas podem ajudar na definição de estratégias de precificação.
+
+Exercício 8:
+
+    A precisão nas previsões de entrega é um indicador chave de desempenho logístico. 
+    Desenvolva um método para comparar as datas estimadas e reais de entrega, identificando padrões de atrasos ou adiantamentos nas entregas. 
+    Faça um gráfico de linhas com o tempo médio de atraso por semana ao longo do tempo. O eixo y deve ser o tempo médio de atraso (em dias) e o eixo x as semanas do ano.
+
+Exercício 9:
+
+    Investigue a relação entre o valor do frete e o preço dos produtos. 
+    Calcule a correlação entre esses dois fatores e crie um scatter plot para visualizar essa relação, discutindo como isso pode afetar as decisões de frete grátis.
+
+Exercício 10:
+
+    Análises de feedback de clientes são essenciais para melhorias. 
+    Agrupe os dados de pedidos por avaliação média e calcule o volume de vendas para cada grupo, usando um gráfico de linha para mostrar a tendência de vendas em relação às avaliações.
+
+Exercício 11:
+
+    Com o fim do mês se aproximando, você precisa preparar e exportar os dados analisados para um relatório em formato CSV. 
+    Exporte o DataFrame final que inclui todos os dados e cálculos realizados, garantindo que esteja pronto para uso em outros softwares de análise.
