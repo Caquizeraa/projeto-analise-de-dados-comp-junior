@@ -2,11 +2,11 @@
 # Projeto de Análise de Dados Comp Júnior
 
 ## Descrição
-- Esse projeto foi desenvolvido para o processo seletivo da Comp Júnior, com intuito de melhorar e demonstrar minhas habilidades na área ánalise de dados.
+- Esse projeto foi desenvolvido para o processo seletivo da Comp Júnior, com intuito de melhorar e demonstrar minhas habilidades na área de ánalise de dados.
 
 
 ## Recursos
-- O projeto é composto de 4 etapas, sendo elas Excel, SQL, Power BI e Python.
+- O projeto é composto por 4 etapas, sendo elas Excel, SQL, Power BI e Python.
 - Cada uma das etapas tinha perguntas de négocio individuais sobre alguns dados que nos foram enviados.
 
 ## Etapas
@@ -17,7 +17,7 @@ Descrição de cada etapa do projeto:
 Foram enviadas 10 perguntas de négocio ou formatação, juntamente com os dados, em uma planilha que você pode encontrar [aqui](https://docs.google.com/spreadsheets/d/1aVX1cy3Jxpvos4M4y37QUEKFMgcYcOwO/edit?u%20sp=sharing#gid=217986317).
 
 - Para as perguntas de formatação: foi utilizada a função substituir do excel.
-- Para as perguntas de negócio: foram utilizadas de tabelas dinâmicas ou fórmulas simples de média e contagem.
+- Para as perguntas de negócio: foram utilizadas tabelas dinâmicas ou fórmulas simples de média e contagem.
 
 Cada resposta está em uma página da [planilha de respostas](./respostas-pergunta-excel.xlsx).
 
@@ -59,7 +59,7 @@ Resposta:
 <img src="./Queries SQL/pergunta6/pergunta6output.png">
 
 
-Para todas as perguntas foram criadas queries sql com seleções, uniões e agrupamentos básicos, buscando sempre uma tabela que respondêsse as perguntas.
+Para todas as perguntas foram criadas queries sql com seleções, uniões e agrupamentos básicos, buscando sempre uma tabela que respondesse às perguntas.
 
 ### 3. Power BI
 Utilizando os mesmos [dados](https://drive.google.com/file/d/1uI7qAjt6qJsh_V4IYUQ82y8Yr_OILTjQ/edit), foi feito um [dashboard](https://app.powerbi.com/view?r=eyJrIjoiNjljOTcyZDYtNWExYi00NDQ0LWI1NjItNjg0MzYyMGRhYzBjIiwidCI6IjkxZDViYjA2LTY5NzAtNDQ2OC1hZTRjLTZmZjRjYWY5OTQyMyJ9) em Power BI, com as seguintes exigências:
@@ -84,7 +84,7 @@ correspondentes aos indicadores pedidos.
 Ele também conta com 6 seletores fixos, para cada um dos filtros.  
 Os outros 4 gráficos, estão dividos em 3 páginas diferente do [dashboard](https://app.powerbi.com/view?r=eyJrIjoiNjljOTcyZDYtNWExYi00NDQ0LWI1NjItNjg0MzYyMGRhYzBjIiwidCI6IjkxZDViYjA2LTY5NzAtNDQ2OC1hZTRjLTZmZjRjYWY5OTQyMyJ9).
 
-**Vale ressaltar** que nos dados recebidos, não havia informações sobre região, apenas estaddo. Portanto realizei um WebScrapping em um site com uma tabela
+**Vale ressaltar** que nos dados recebidos, não havia informações sobre região, apenas estado. Portanto realizei um WebScrapping em um site com uma tabela
 de estados e regiões, que você pode acesssar [aqui](https://www.doutoresdoexcel.com.br/relacao-estados-e-regioes-curso-power-bi/).
 
 **Lembrando também** que não haviam informações sobre gênero (masulino, femenino, entre outros) nos dados. Portanto interpretei como gênero, a categoria de cada produto.
@@ -162,7 +162,7 @@ Exercício 11:
     Com o fim do mês se aproximando, você precisa preparar e exportar os dados analisados para um relatório em formato CSV. 
     Exporte o DataFrame final que inclui todos os dados e cálculos realizados, garantindo que esteja pronto para uso em outros softwares de análise.
 
-Para responder as perguntas utilizei das bibliotecas Pandas, Numpy, Matplotlib e Seaborn.
+Para responder às perguntas utilizei as bibliotecas Pandas, Numpy, Matplotlib e Seaborn.
 
 **Observação**: para o exercício 10, houve a necessidade de utilizar a tabela de reviews, envidada nas etaps de SQL e Power BI.
 
