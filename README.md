@@ -19,6 +19,8 @@ Foram enviadas 10 perguntas de négocio ou formatação, juntamente com os dados
 - Para as perguntas de formatação: foi utilizada a função substituir do excel.
 - Para as perguntas de negócio: foram utilizadas de tabelas dinâmicas ou fórmulas simples de média e contagem.
 
+Cada resposta está em uma página da [planilha de respostas](./respostas-pergunta-excel.xlsx).
+
 ### 2. SQL
 Recebi os [dados](https://drive.google.com/file/d/1uI7qAjt6qJsh_V4IYUQ82y8Yr_OILTjQ/edit) em SqlLite e as seguintes perguntas:
 
@@ -56,5 +58,23 @@ Resposta:
 
 <img src="./Queries SQL/pergunta6/pergunta6output.png">
 
-- Para todas as perguntas foram criadas queries sql com seleções, uniões e agrupamentos básicos, buscando sempre uma tabela que respondêsse as perguntas.
 
+Para todas as perguntas foram criadas queries sql com seleções, uniões e agrupamentos básicos, buscando sempre uma tabela que respondêsse as perguntas.
+
+### 2. Power BI
+Utilizando os mesmos [dados](https://drive.google.com/file/d/1uI7qAjt6qJsh_V4IYUQ82y8Yr_OILTjQ/edit), foi feito um [dashboard](https://app.powerbi.com/view?r=eyJrIjoiNjljOTcyZDYtNWExYi00NDQ0LWI1NjItNjg0MzYyMGRhYzBjIiwidCI6IjkxZDViYjA2LTY5NzAtNDQ2OC1hZTRjLTZmZjRjYWY5OTQyMyJ9) em Power BI, com as seguintes exigências:
+
+Gráficos
+- Gráfico de Barras com as vendas totais por mês.
+- Gráfico de Linhas com o valor do pedido médio (AOV - Average Order Value) ao longo do tempo.
+- Gráfico de Pizza com o valor total de pedidos por gênero.
+- Gráfico de linha com a performance de vendas por região ao longo do tempo. 
+- Indicador com o total de vendas por ano.
+- Indicador com a taxa média de frete.
+- Indicador com o número total de produtos vendidos (quantidade de produtos vendidos).
+
+Filtros
+- Por Data (Seleção de intervalo de datas (dia, mês, ano))
+- Por Categoria de Produto (lista dropdown)
+- Por vendedor (lista dropdown com o nome ou ID dos vendedores) 
+- Por região (lista dropdown com as regiões de entrega)
