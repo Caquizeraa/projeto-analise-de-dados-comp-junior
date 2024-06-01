@@ -2,11 +2,11 @@
 # Projeto de Análise de Dados Comp Júnior
 
 ## Descrição
-- Esse projeto foi desenvolvido para o processo seletivo da Comp Júnior, com intuito de melhor e demonstrar minhas habilidades na área ánalise de dados.
+- Esse projeto foi desenvolvido para o processo seletivo da Comp Júnior, com intuito de melhorar e demonstrar minhas habilidades na área ánalise de dados.
 
 
 ## Recursos
-- O projeto é composto de 4 etapas, sendo elas Excel, SQL, Power BI e Python,
+- O projeto é composto de 4 etapas, sendo elas Excel, SQL, Power BI e Python.
 - Cada uma das etapas tinha perguntas de négocio individuais sobre alguns dados que nos foram enviados.
 
 ## Etapas
@@ -78,3 +78,16 @@ Filtros
 - Por Categoria de Produto (lista dropdown)
 - Por vendedor (lista dropdown com o nome ou ID dos vendedores) 
 - Por região (lista dropdown com as regiões de entrega)
+
+O dashboard final ficou com 3 cartões fixos,
+correspondentes aos indicadores pedidos.  
+Ele também conta com 6 seletores fixos, para cada um dos filtros.  
+Os outros 4 gráficos, estão dividos em 3 páginas diferente do [dashboard](https://app.powerbi.com/view?r=eyJrIjoiNjljOTcyZDYtNWExYi00NDQ0LWI1NjItNjg0MzYyMGRhYzBjIiwidCI6IjkxZDViYjA2LTY5NzAtNDQ2OC1hZTRjLTZmZjRjYWY5OTQyMyJ9).  
+  
+O link público de acesso ao dashboard é:  
+https://app.powerbi.com/view?r=eyJrIjoiNjljOTcyZDYtNWExYi00NDQ0LWI1NjItNjg0MzYyMGRhYzBjIiwidCI6IjkxZDViYjA2LTY5NzAtNDQ2OC1hZTRjLTZmZjRjYWY5OTQyMyJ9  
+
+
+<img src="./images/pagina1dashboard.png">
+<img src="./images/pagina2dashboard.png">
+<img src="./images/pagina3dashboard.png">
