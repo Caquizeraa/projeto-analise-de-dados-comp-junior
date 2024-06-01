@@ -156,3 +156,12 @@ Exercício 11:
 
     Com o fim do mês se aproximando, você precisa preparar e exportar os dados analisados para um relatório em formato CSV. 
     Exporte o DataFrame final que inclui todos os dados e cálculos realizados, garantindo que esteja pronto para uso em outros softwares de análise.
+
+Para responder as perguntas utilizei das bibliotecas Pandas, Numpy, Matplotlib e Seaborn
+
+**Observação**: para o exercício 10, houve a necessidade de utilizar da tabela de reviews, envidada nas etaps de SQL e Power BI.
+
+## Conclusão
+- O projeto me auxiliou no desenvolvimento de habilidades na Ánalise de Dados. Por meio deste projeto, é visível a importância desta área na tomada de decisões, seja no âmbito pessoal ou profissional.
+
+#### Desenvolvido por Isac Gonçalves Cunha
