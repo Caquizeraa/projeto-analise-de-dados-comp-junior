@@ -82,7 +82,12 @@ Filtros
 O dashboard final ficou com 3 cartões fixos,
 correspondentes aos indicadores pedidos.  
 Ele também conta com 6 seletores fixos, para cada um dos filtros.  
-Os outros 4 gráficos, estão dividos em 3 páginas diferente do [dashboard](https://app.powerbi.com/view?r=eyJrIjoiNjljOTcyZDYtNWExYi00NDQ0LWI1NjItNjg0MzYyMGRhYzBjIiwidCI6IjkxZDViYjA2LTY5NzAtNDQ2OC1hZTRjLTZmZjRjYWY5OTQyMyJ9).  
+Os outros 4 gráficos, estão dividos em 3 páginas diferente do [dashboard](https://app.powerbi.com/view?r=eyJrIjoiNjljOTcyZDYtNWExYi00NDQ0LWI1NjItNjg0MzYyMGRhYzBjIiwidCI6IjkxZDViYjA2LTY5NzAtNDQ2OC1hZTRjLTZmZjRjYWY5OTQyMyJ9).
+
+**Vale ressaltar** que nos dados recebidos, não havia informações sobre região, apenas estaddo. Portanto realizei um WebScrapping em um site com uma tabela
+de estados e regiões, que você pode acesssar [aqui](https://www.doutoresdoexcel.com.br/relacao-estados-e-regioes-curso-power-bi/)
+
+**Lembrando também** que não haviam informações sobre gênero (masulino, femenino, entre outros) nos dados. Portanto interpretei como gênero, a categoria de cada produto.
   
 O link público de acesso ao dashboard é:  
 https://app.powerbi.com/view?r=eyJrIjoiNjljOTcyZDYtNWExYi00NDQ0LWI1NjItNjg0MzYyMGRhYzBjIiwidCI6IjkxZDViYjA2LTY5NzAtNDQ2OC1hZTRjLTZmZjRjYWY5OTQyMyJ9  
